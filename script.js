@@ -59,13 +59,14 @@ deleteBtn.textContent = 'delete';
 deleteBtn.style.marginLeft = '12px';
 deleteBtn.style.backgroundColor = 'blue';
 deleteBtn.style.color = 'white'
-deleteBtn.style.margin = '20px';
+deleteBtn.style.marginTop = '30px';
 
 deleteBtn.addEventListener('click', function () {
     listContainer.removeChild(listItem);
 });
 
 deleteBtn.style.padding = '15px';
+deleteBtn.style.marginTop = '30px';
 deleteBtn.style.borderRadius = '12px';
 
 listItem.appendChild(deleteBtn);
