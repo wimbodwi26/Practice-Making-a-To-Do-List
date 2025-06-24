@@ -33,7 +33,7 @@ addButton.style.color = 'white'
 addButton.style.padding = '15px';
 addButton.style.marginLeft = '12px';
 addButton.style.borderRadius = '12px';
-addButton.style.panddingTop = '12px';
+addButton.style.marginTop = '12px';
 
 document.body.append(addButton);
 
@@ -59,7 +59,7 @@ deleteBtn.textContent = 'delete';
 deleteBtn.style.marginLeft = '12px';
 deleteBtn.style.backgroundColor = 'blue';
 deleteBtn.style.color = 'white'
-deleteBtn.style.panddingTop = '12px';
+deleteBtn.style.marginTop = '12px';
 
 deleteBtn.addEventListener('click', function () {
     listContainer.removeChild(listItem);
