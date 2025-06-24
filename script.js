@@ -33,6 +33,7 @@ addButton.style.color = 'white'
 addButton.style.padding = '15px';
 addButton.style.marginLeft = '12px';
 addButton.style.borderRadius = '12px';
+addButton.style.panddingLeft = '12px';
 
 document.body.append(addButton);
 
