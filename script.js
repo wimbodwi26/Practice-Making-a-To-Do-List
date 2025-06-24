@@ -30,10 +30,9 @@ addButton.textContent = 'Add Task';
 
 addButton.style.backgroundColor = 'blue';
 addButton.style.color = 'white'
-addButton.style.padding = '15px';
+addButton.style.padding = '25px';
 addButton.style.marginLeft = '12px';
 addButton.style.borderRadius = '12px';
-addButton.style.marginTop = '12px';
 
 document.body.append(addButton);
 
